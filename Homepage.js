@@ -5,7 +5,7 @@
 <script>
 $(document).ready(function(){
     $("button").click(function(){
-        $.POST("https://api.imgflip.com/caption_image",
+        $.post("https://api.imgflip.com/caption_image",
 		{ 
 			template_id: "19723863",
 			username: "PHodges",
